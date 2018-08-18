@@ -1,5 +1,5 @@
 def reformat_languages(languages)
-  # your code here	  new_hash = {}
+    new_hash = {}
   languages.each do |style, data|
     data.each do |language, attributes|
       if new_hash.keys.include?(language)
